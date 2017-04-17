@@ -1,0 +1,31 @@
+    1  pwd
+    2  ls
+    3  make
+    4  make clean
+    5  make
+    6  ls
+    7  ./http_client 
+    8  make
+    9  ./http_client 
+   10  make
+   11  ./http_server 
+   12  ./server_http 
+   13  sudo wget http://127.0.0.1/index.html
+   14  ls
+   15  vi index.html 
+   16  sudo curl http://127.0.0.1/index.html
+   17  sudo apt-get install python
+   18  sudo apt-get install python3
+   19  sudo apt-get install python3.4
+   20  python py_client.py 
+   21  sudo apt-get install requests
+   22  pip install request
+   23  pip install requests
+   24  sudo apt-get install python-pip
+   25  pip install requests
+   26  python py_client.py 
+   27  ls
+   28  python py_client.py 
+   29  ifconfig 
+   30  history . hist.txt
+   31  history > hist.txt

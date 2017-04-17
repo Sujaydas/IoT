@@ -1,0 +1,12 @@
+LIBRARIES = 
+INCLUDE = -I /home/sujay65/Documents/Http
+CXXFLAGS = -O2 -D_GNU_SOURCE -DWITH_POSIX
+
+all: http_server http_client
+	
+http_server:http_server.c
+	gcc http_server.c $(INCLUDE) $(LIBRARIES) $(CXXFLAGS) -g -o  http_server
+	
+http_client:http_client.c
+	gcc http_client.c $(INCLUDE) $(LIBRARIES) $(CXXFLAGS) -g -o  http_client
+
